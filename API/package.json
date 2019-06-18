@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^3.4.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
   }
 }
