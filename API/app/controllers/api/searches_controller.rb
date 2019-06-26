@@ -8,6 +8,6 @@ class Api::SearchesController < ApplicationController
 
     def create
         binding.pry
-        @searches = Search.create
+        @searches = Search.create(query: params[:_json])
     end
 end
